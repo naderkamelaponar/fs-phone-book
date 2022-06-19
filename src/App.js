@@ -42,7 +42,7 @@ return (
 <div> Filter : <input placeholder="Filter the names" value={fValue}  onChange={handleFilter}/></div>
 <AddNew name={name} number={number} handleName={handleName} handleNumber={handleNumber} handleSubmit={handleSubmit}/>
 {filter ? <Filter fValue={fValue} phoneBook={phoneBook}/>:phoneBook.map((p,i)=>{return <PhoneLine key={i} name={p.name} number={p.number}/>})}
-<footer><a href="">Repo</a></footer>
+<footer><a href="https://github.com/naderkamelaponar/fs-phone-book">Repo</a></footer>
 </>
 )
 
