@@ -22,4 +22,4 @@ Your app is ready to be deployed!
 ##### Deploy State 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/81b12919-c576-4570-8d8a-f44472b7ad14/deploy-status)](https://app.netlify.com/sites/resplendent-wisp-c7dc41/deploys)
 ##### Live Site 
-[Web development curriculum](https://resplendent-wisp-c7dc41.netlify.app/)
+[Phone Book 2.10](https://resplendent-wisp-c7dc41.netlify.app/)
