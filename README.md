@@ -19,7 +19,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-#### Deploy State 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b7c2dad6-616a-438b-9c4f-52b51d2779c1/deploy-status)](https://app.netlify.com/sites/cheerful-raindrop-122746/deploys)
-#### Live Site 
-[Web development curriculum](https://cheerful-raindrop-122746.netlify.app)
+##### Deploy State 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/81b12919-c576-4570-8d8a-f44472b7ad14/deploy-status)](https://app.netlify.com/sites/resplendent-wisp-c7dc41/deploys)
+##### Live Site 
+[Web development curriculum](https://resplendent-wisp-c7dc41.netlify.app/)
