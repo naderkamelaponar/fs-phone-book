@@ -11,7 +11,7 @@ const [filter,setFilter] = useState(false);
 const [fValue,setFValue] = useState("");
 const [phoneBook,setPhoneBook] = useState([{}]);
 const axiosEffect =()=>{
-        const data = axios.get('http://localhost:3001/persons');
+        const data = axios.get('http://172.0.0.1:3001/persons');
         data.then(response => {
             setPhoneBook(response.data);
         })
