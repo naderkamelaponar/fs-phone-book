@@ -33,9 +33,6 @@ jobs:
       - run:
           name: Deploy to Netlify 
           command: npm run deploy-netlify
-      - server:
-          name: run the server
-          command: npm run server
 
 workflows:
   build_deploy:
