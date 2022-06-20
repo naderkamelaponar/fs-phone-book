@@ -1,14 +1,23 @@
 // بسم الله الرحمن الرحيم
-import { useState } from "react"
+import { useState ,useEffect} from "react"
 import Filter from "./components/Filter";
 import PhoneLine from "./components/PhoneLine";
 import AddNew from "./components/AddNew";
+import axios from 'axios'
 const App = () => {
 const [name, setName] = useState("");
 const [number,setNumber] = useState("");
 const [filter,setFilter] = useState(false);
 const [fValue,setFValue] = useState("");
 const [phoneBook,setPhoneBook] = useState([{}]);
+const axiosEffect =()=>{
+        const data = axios.get('http://localhost:3001/persons');
+        data.then(response => {
+            setPhoneBook(response.data);
+        })
+}
+useEffect(axiosEffect,[]);
+
 const handleName=(e)=>{
     setName(e.target.value);
 }
@@ -28,8 +37,12 @@ const handleSubmit=(event)=>{
         alert(`${name} is already in the phone book`);
         return;
     }
-    const newPerson={id:phoneBook.length,name:name,number:number}
-    setPhoneBook(phoneBook.concat(newPerson));
+    const newPerson={name,number}
+   console.log(phoneBook.length)
+    axios.post('http://localhost:3001/persons',newPerson)
+    .then(response => {
+        setPhoneBook(phoneBook.concat(response.data))
+    })
     setName("");
     setNumber("")
     setFilter(false);
