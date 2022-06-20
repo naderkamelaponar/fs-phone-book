@@ -38,7 +38,6 @@ const handleSubmit=(event)=>{
         return;
     }
     const newPerson={name,number}
-   console.log(phoneBook.length)
     axios.post('http://localhost:3001/persons',newPerson)
     .then(response => {
         setPhoneBook(phoneBook.concat(response.data))
