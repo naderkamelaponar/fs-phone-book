@@ -9,12 +9,8 @@ const PhoneLine=({name,number,id,handleDelete})=>{
             .then(()=>{handleDelete()})
         }
     }
-return (
-    <>
-    <div > {name} | {number} <p><button onClick={deletePerson}>Delete</button></p></div>
-    
-    </>
-)
+    return  name && number ? <p> {name} | {number} <button onClick={deletePerson}>Delete</button></p>:''
+
     }
    
 
