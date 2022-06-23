@@ -1,0 +1,21 @@
+h1{
+    color: brown;
+    font-style: italic;
+}
+p{
+    background-color: yellow;
+    width: fit-content;
+}
+.error{
+    background-color: red;
+    color: white;
+    border :1px solid brown;
+ 
+}
+.success{
+    background-color: green;
+    color: white;
+    border :1px solid limegreen;
+   
+}
+

@@ -1,14 +1,15 @@
 # بسم الله الرحمن الرحيم
 ### Helsinki full stack part2 -D-  'Phone Book 2.18'
 
-#### `npm start`
-
+#### `Start the App`
+Open the Terminal & write `npm start`
+Open another Terminal & write `npm run server` to start the backend server
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
+##### 
 
 
 #### `npm run build`
