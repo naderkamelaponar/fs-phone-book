@@ -86,7 +86,7 @@ const handleDelete=(name,id)=>{
 return (
 <>
 <h1> بسم الله الرحمن الرحيم</h1>
-<h2>Phone Book 2.18</h2>
+<h2>Phone Book 2.20</h2>
 <Notification message={msg} type={msgType}/>
 <h3>Filter :</h3>
 <div> Filter : <input placeholder="Filter the names" value={fValue}  onChange={handleFilter}/></div>
