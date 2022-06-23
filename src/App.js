@@ -70,8 +70,6 @@ const handleSubmit=(event)=>{
     setMsgType('success')
     setFilter(false);
    finish()
-    
-    
 }
 const handleDelete=(name,id)=>{
     const data= PhoneBookService.deletePerson(id)
